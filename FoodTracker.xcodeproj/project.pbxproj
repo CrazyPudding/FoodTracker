@@ -16,6 +16,7 @@
 		B9E6A1062591C6FA00AFBA56 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E6A1052591C6FA00AFBA56 /* FoodTrackerTests.swift */; };
 		B9E6A1112591C6FA00AFBA56 /* FoodTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E6A1102591C6FA00AFBA56 /* FoodTrackerUITests.swift */; };
 		B9E6A12825932ADD00AFBA56 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E6A12725932ADD00AFBA56 /* RatingControl.swift */; };
+		B9E6A1302594824500AFBA56 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E6A12F2594824500AFBA56 /* Meal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B9E6A1102591C6FA00AFBA56 /* FoodTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerUITests.swift; sourceTree = "<group>"; };
 		B9E6A1122591C6FA00AFBA56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9E6A12725932ADD00AFBA56 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		B9E6A12F2594824500AFBA56 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				B9E6A0EE2591C6F600AFBA56 /* AppDelegate.swift */,
 				B9E6A0F02591C6F600AFBA56 /* SceneDelegate.swift */,
 				B9E6A0F22591C6F600AFBA56 /* ViewController.swift */,
+				B9E6A12F2594824500AFBA56 /* Meal.swift */,
 				B9E6A12725932ADD00AFBA56 /* RatingControl.swift */,
 				B9E6A0F42591C6F600AFBA56 /* Main.storyboard */,
 				B9E6A0F72591C6FA00AFBA56 /* Assets.xcassets */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9E6A1302594824500AFBA56 /* Meal.swift in Sources */,
 				B9E6A12825932ADD00AFBA56 /* RatingControl.swift in Sources */,
 				B9E6A0F32591C6F600AFBA56 /* ViewController.swift in Sources */,
 				B9E6A0EF2591C6F600AFBA56 /* AppDelegate.swift in Sources */,
@@ -481,7 +485,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FX9M64U4BJ;
 				INFOPLIST_FILE = FoodTrackerTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -503,7 +507,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FX9M64U4BJ;
 				INFOPLIST_FILE = FoodTrackerTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
