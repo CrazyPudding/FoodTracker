@@ -28,9 +28,6 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u4e-AH-baB">
                                         <rect key="frame" x="115.5" y="42" width="151" height="30"/>
                                         <state key="normal" title="Set Default Label Text"/>
-                                        <connections>
-                                            <action selector="setDefaultLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O3O-n0-AzF"/>
-                                        </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="320" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="hff-vV-Mf3">
                                         <rect key="frame" x="31" y="80" width="320" height="320"/>
@@ -125,7 +122,7 @@
                                     <outlet property="nameLabel" destination="Ozd-3R-Cbf" id="ecw-9G-jdN"/>
                                     <outlet property="photoImageView" destination="bAs-up-Iqp" id="jRZ-ys-GBs"/>
                                     <outlet property="ratingControl" destination="TSi-cW-XeT" id="MS5-Wj-HXv"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="showDetail" id="bar-CL-rvY"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="ShowDetail" id="bar-CL-rvY"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
